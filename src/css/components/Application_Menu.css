@@ -10,7 +10,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url("../img/bg_menu.png");
+    background: #2f353a;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -63,7 +63,7 @@
 
   &__body {
     flex-grow: 1;
-    overflow-y: scroll;
+    overflow-y: auto;
   }
 
   &__sectionName {
