@@ -50,6 +50,7 @@ services:
       - ./demo/fittings:/demo/fittings
       - ./demo/swagger:/demo/swagger
       - ./demo/test:/demo/test
+      - ./demo/public:/demo/public
       - ./demo/.env.template:/demo/.env
     command: npm run inspect
 
